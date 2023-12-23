@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Form</title>
+</head>
+<body>
+    <h2>Email</h2>
+    <form method="post" action="send.php">
+        <label for="to">Recipient Email (e.g., example@gmail.com):</label>
+        <input type="email" name="to" required>
+        <br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" required>
+        <br>
+
+        <label for="message">Message:</label>
+        <textarea name="message" required></textarea>
+        <br>
+
+        <input type="submit" value="Send Email">
+    </form>
+</body>
+</html>
